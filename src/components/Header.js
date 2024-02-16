@@ -7,7 +7,7 @@ const Header = () => {
     e.preventDefault();
     navigate('/login');
   }
-
+  
   return(
     <header className="topNav">
       <nav className="navbar navbar-expand-md navbar-dark">
@@ -22,7 +22,7 @@ const Header = () => {
                 <option>English</option>
                 <option>Hindi</option>
               </select>
-              <button className="btn btn-danger" onClick={clickHandler}>Signin</button>
+              <button className="btn btn-danger" onClick={clickHandler}>Sign In</button>
             </form>
           </div>
         </div>

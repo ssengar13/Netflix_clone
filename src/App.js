@@ -1,6 +1,7 @@
 import React from "react";
 import './App.scss';
 import Header from './components/Header.js';
+import HeaderNew from './components/headerNew.js';
 import HomeBanner from "./components/HomeBanner";
 import Login from "./components/Login";
 import Banner from "./components/Banner";
@@ -32,7 +33,7 @@ function App() {
           }/>
           <Route path="/dashboard" element={
             <React.Fragment>
-              <Header/>
+              <HeaderNew/>
               <Banner/>
               <List title="Netflix Originals" param="originals"/>
               <List title="Trending Now" param="trending"/>
